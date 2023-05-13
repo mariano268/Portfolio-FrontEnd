@@ -1,6 +1,7 @@
 {
   "projects": {
-    "frontendmm": "portfolio-fronted-marianomarco"
+    "frontendmm": "portfolio-fronted-marianomarco",
+    "default": "portfolio-fronted-marianomarco"
   },
   "targets": {},
   "etags": {}
