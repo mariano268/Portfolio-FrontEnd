@@ -1,0 +1,28 @@
+<header>
+    <div class = "ContenedorElementos-Header">
+        <div class = "ContenedorOganizador-Header">
+            <div class = "ContenedorLogo-Header">
+                <img class = "Logo-Header" src="../assets/APLogo.png" alt="">
+                <h3 class = "TextoLogo-Header">#Yo programo</h3>
+            </div>
+        
+            <div class = "Navegador-Header">
+                <div class = "RedesSociales-Header">
+                    <i class="LogoRed-Header fa-brands fa-instagram"></i>
+                    <i class="LogoRed-Header fa-brands fa-facebook"></i>
+                    <i class="LogoRed-Header fa-brands fa-twitter"></i>
+                </div>
+                <div class = "Login-Header">
+                    <a class = "EnlaceLogin-Header" routerLink="/login" *ngIf="!isLogged" aria-current="page">Login</a>
+                    <a class = "EnlaceLogin-Header" (click)="onLogOut()" *ngIf="isLogged" aria-current="page">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "ContenedorFondo-Header">
+        <a href="#" class = "Editar-Header"><i class="LogoEditar-Header fa-solid fa-pencil"></i></a>
+        <img class = "ImagenFondo-Header" src="../assets/FondoHeader.jpg" alt="">
+    </div>
+</header>
+

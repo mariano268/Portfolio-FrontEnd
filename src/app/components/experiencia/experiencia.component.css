@@ -1,0 +1,204 @@
+.ContenedorTotal-Experiencia {
+    margin-top: 10px;
+}
+
+.ContenedorElementos-Experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 340px;
+    margin: auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ContendorTitulo-Experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Titulo-Experiencia {
+    font-family: 'Roboto' , sans-serif;
+    color: #363636;
+    font-size: 18px;
+}
+
+.ContenedorFor {
+    width: 100%;
+}
+
+.Tarjeta-Experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    width: 100%;
+}
+
+.ContenedorImagen-Experiencia {
+    padding: 10px;
+}
+
+.InfoTarjeta-Experiencia {
+    height: 100%;
+    width: 100%;
+}
+
+.ImagenEmpresa-Experiencia {
+    width: 160px;
+    height: 55px;
+}
+
+.TituloTarjeta-Experiencia {
+    font-family: 'Roboto' , sans-serif;
+    color: #636363;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.TextoTarjeta-Experiencia {
+    font-family: 'Roboto' , sans-serif;
+    color: #363636;
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+}
+
+.Editar-Experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    right: 40px;
+    position: absolute;
+    z-index: 20;
+    border: none;
+}
+
+.LogoEditar-Experiencia {
+    font-size: 14px;
+    color: #363636;
+}
+
+.Eliminar-Experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    right: 5px;
+    position: absolute;
+    z-index: 20;
+    border: none;
+}
+
+.LogoEliminar-Experiencia {
+    font-size: 14px;
+    color: #363636;
+}
+
+@media (min-width: 460px) {
+
+    .ContenedorElementos-Experiencia {
+        max-width: 440px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .ContenedorElementos-Experiencia {
+        max-width: 740px;
+    }
+
+    .Tarjeta-Experiencia {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .ContenedorImagen-Experiencia {
+        width: 30%;
+        padding-left: 20px;
+    }
+
+    .InfoTarjeta-Experiencia {
+        width: 65%;
+        padding-right: 20px;
+    }
+
+    .Editar-Experiencia {
+        top: 5px;
+    }
+
+    .Eliminar-Experiencia {
+        top: 5px;
+    }
+
+    .LogoEditar-Experiencia {
+        font-size: 16px;
+    }
+
+    .LogoEliminar-Experiencia {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .ContenedorElementos-Experiencia {
+        max-width: 940px;
+    }
+
+    .ContenedorImagen-Experiencia {
+        width: 20%;
+    }
+
+    .InfoTarjeta-Experiencia {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .ContenedorElementos-Experiencia {
+        max-width: 1140px;
+    }
+
+    .Tarjeta-Experiencia {
+        width: 100%;
+    }
+
+    .ContenedorImagen-Experiencia {
+        width: 15%;
+    }
+
+    .InfoTarjeta-Experiencia {
+        width: 75%;
+    }
+
+    .Editar-Experiencia {
+        top: 5px;
+    }
+
+    .Eliminar-Experiencia {
+        top: 5px;
+    }
+}

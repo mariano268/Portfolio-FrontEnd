@@ -1,0 +1,210 @@
+.ContenedorTotal-Proyectos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ContendorElementos-Proyectos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 340px;
+    margin: auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ContenedorFor-Proyectos {
+    width: 100%;
+}
+
+.TituloSeccion-Proyectos {
+    font-family: 'Roboto' , sans-serif;
+    color: #363636;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.Item-Proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.ContenedorImagenDescripcion-Proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.TituloItem-Proyectos {
+    font-family: 'Roboto' , sans-serif;
+    color: #636363;
+    font-size: 16px;
+}
+
+.ContenedorImagenItem-Proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.ImagenItem-Proyectos {
+    width: 200px;
+    height: 120px;
+}
+
+.DescripcionItem-Proyectos {
+    font-family: 'Roboto' , sans-serif;
+    color: #363636;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.UltimoItem-Proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    position: relative;
+}
+
+.Editar-Proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    right: 40px;
+    position: absolute;
+    z-index: 20;
+    border: none;
+}
+
+.LogoEditar-Proyectos {
+    font-size: 14px;
+    color: #363636;
+}
+
+.Eliminar-Proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    right: 5px;
+    position: absolute;
+    z-index: 20;
+    border: none;
+}
+
+.LogoEliminar-Proyectos {
+    font-size: 14px;
+    color: #363636;
+}
+
+@media (min-width: 460px) {
+
+    .ContendorElementos-Proyectos {
+        max-width: 440px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .ContendorElementos-Proyectos {
+        max-width: 740px;
+    }
+
+    .Item-Proyectos {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .UltimoItem-Proyectos {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .ContenedorImagenItem-Proyectos {
+        width: 30%;
+        justify-content: flex-start;
+        padding-left: 0px;
+    }
+
+    .DescripcionItem-Proyectos {
+        width: 70%;
+        padding: 10px;
+        padding-right: 0px;
+    }
+
+    .TituloItem-Proyectos {
+        width: 100%;
+    }
+
+    .LogoEditar-Proyectos {
+        font-size: 16px;
+    }
+
+    .LogoEliminar-Proyectos {
+        font-size: 16px;
+    }
+
+    .ContenedorImagenDescripcion-Proyectos {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .ContendorElementos-Proyectos {
+        max-width: 940px;
+    }
+
+    .ContenedorImagenItem-Proyectos {
+        width: 20%;
+    }
+
+    .DescripcionItem-Proyectos {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .ContendorElementos-Proyectos {
+        max-width: 1140px;
+        padding: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .ContenedorImagenItem-Proyectos {
+        width: 20%;
+    }
+
+    .DescripcionItem-Proyectos {
+        width: 75%;
+    }
+}
